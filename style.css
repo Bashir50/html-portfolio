@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h2{
+    color: #021526;
+}
+h3{
+    color: #021526;
+}
+.top-container{
+    background-color: #6EACDA;
+}
+.top-container h1{
+    font-family: "Matemasie", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: #021526;
+}
+.top-container p{
+    font-size: 30px;
+    color: #021526;
+}
+.top-container span{
+    text-decoration: underline;
+}
+.top-container img{
+    height: 200px;
+    width: 250px;
+}
+.title-container{
+    padding-top: 20px;
+}
+.profile{
+    padding-top: 60px;
+}
+.profile img{
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+}
+.profile h2{
+    color: #021526;
+}
+.skills{
+    padding-top: 30px;
+}
+.parent{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.typing{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+.typing iframe{
+    height: 150px;
+    width: 250px;
+}
+.coding p{
+ text-align: left;   
+}
+.football img{
+    height: 150px;
+    width: 250px;
+        
+}
+
+.contact{
+    padding-top: 100px;
+}
+.contact p{
+    color: #021526;
+}
+.contact a{
+    background-color: #6EACDA;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+.contact a:hover{
+    background-color: #021526;
+}
+.bottom-container{
+    background-color: #6EACDA;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+.bottom-container a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;    
+}
+.bottom-container a:hover{
+    background-color: #021526;
+}
+.copyright{
+    color: white;
+}
+@media (min-width: 1024px) and (max-width: 2560px) {
+    .top-container h1{
+        font-family: "Matemasie", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 100px;
+      color: #021526;
+    }
+    .top-container p{
+        font-size: 60px;
+        color: #021526;
+    }
+    .profile img{
+        height: 200px;
+        width: 250px;
+        border-radius: 50%;
+    }
+     h2{
+        color: #021526;
+        font-size: 70px;
+    }
+    p{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 50px;
+    }
+    .contact a{
+        background-color: #6EACDA;
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+        text-decoration: none;
+        font-size: 40px;
+    }
+    .bottom-container a{
+        padding: 20px;
+        text-decoration: none;
+        color: white;   
+        font-size: 30px; 
+    }
+    .typing iframe{
+        height: 250px;
+        width: 350px;
+        padding-top: 50px;
+    }
+    
+}
